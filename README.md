@@ -1,4 +1,4 @@
-<h2 align="center"> PathVR: Multimodal Visual Reasoning for Interpretable Pathology Analysis </h2>
+<h2 align="center"> PathMR: Multimodal Visual Reasoning for Interpretable Pathology Analysis </h2>
 <p align="center">
   <a href="#Links">Links</a> |
   <a href="#-installation">Installation</a> |
