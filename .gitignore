@@ -46,6 +46,7 @@ batch_result_13b/
 *.7z
 *.jsonl
 
+
 # ---- 模型权重 / 推理引擎文件 ----
 *.pt
 *.pth
