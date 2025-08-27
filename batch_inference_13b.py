@@ -94,7 +94,7 @@ def inference(
     conv.append_message(conv.roles[0], prompt)
     conv.append_message(conv.roles[1], "")
     prompt = conv.get_prompt()
-    image_path = image_path.replace("/app", "/mnt/eternus/users/Yu/project")
+    image_path = image_path.replace("/app", "/mnt/eternus/users/xx/project")
 
     if not os.path.exists(image_path):
         print("File not found in {}".format(image_path))
@@ -264,13 +264,13 @@ def main(args):
 
     # define the dataset here:
     vqa_dataset = (
-        "/mnt/eternus/users/Yu/project/iccv2025/PathVR/data/vqa_data_test.json"
+        "data/vqa_data_test.json"
     )
     refer_dataset = (
-        "/mnt/eternus/users/Yu/project/iccv2025/PathVR/data/split_refer_seg_test.json"
+        "data/split_refer_seg_test.json"
     )
     reason_dataset = (
-        "/mnt/eternus/users/Yu/project/iccv2025/PathVR/data/split_reason_seg_test.json"
+        "data/split_reason_seg_test.json"
     )
 
     save_dir = "./batch_result_13b"
@@ -312,7 +312,7 @@ def main(args):
                 "gt_answer": answer,
                 "prediction": pred,
                 "image_path": image_path.replace(
-                    "/app", "/mnt/eternus/users/Yu/project"
+                    "/app", "/mnt/eternus/users/xx/project"
                 ),
             }
             out_f.write(json.dumps(result, ensure_ascii=False) + "\n")
@@ -353,7 +353,7 @@ def main(args):
                 "gt_answer": answer,
                 "prediction": pred,
                 "image_path": image_path.replace(
-                    "/app", "/mnt/eternus/users/Yu/project"
+                    "/app", "/mnt/eternus/users/xx/project"
                 ),
             }
             out_f.write(json.dumps(result, ensure_ascii=False) + "\n")

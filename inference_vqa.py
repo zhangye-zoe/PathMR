@@ -134,7 +134,7 @@ def estimate_remaining_time(start_time, processed, total):
 def run_inference_for_sample(
     sample, model, tokenizer, clip_image_processor, args, question_id
 ):
-    image = sample["image"].replace("/app", "/mnt/eternus/users/Yu/project/")
+    image = sample["image"].replace("/app", "/mnt/eternus/users/xx/project/")
     question = sample["conversations"][0]["value"].strip("<image>\n")
 
     conv = conversation_lib.conv_templates[args.conv_type].copy()

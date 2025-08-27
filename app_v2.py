@@ -298,19 +298,19 @@ model.eval()
 examples = [
     [
         "How can epithelial cell nuclei be distinguished from surrounding components in an H&E stained image? Please output segmentation mask.",
-        "/mnt/eternus/users/Yu/project/iccv2025/PathVR/data/image/val/21bc8d1891a242baaeb599847364e973_b3f058.jpg",
+        "data/image/val/21bc8d1891a242baaeb599847364e973_b3f058.jpg",
     ],
     [
         "Are inflammatory cells surrounding necrotic tumor regions indicating an inflammatory response present? Please respond with the segmentation mask.",
-        "/mnt/eternus/users/Yu/project/iccv2025/PathVR/data/image/val/4b89d594689643aca85c1f49e44b602d_941012.jpg",
+        "data/image/val/4b89d594689643aca85c1f49e44b602d_941012.jpg",
     ],
     [
         "Where are the areas with concentrated inflammatory cells located? Please output segmentation mask and explain why.",
-        "/mnt/eternus/users/Yu/project/iccv2025/PathVR/data/image/val/9428cc34084f4c8f9516b2908d2f34a0_4d6c21.jpg",
+        "data/image/val/9428cc34084f4c8f9516b2908d2f34a0_4d6c21.jpg",
     ],
     [
         "What features indicate vascular invasion in gastric adenocarcinoma on H&E staining? Please output segmentation mask.",
-        "/mnt/eternus/users/Yu/project/iccv2025/PathVR/data/image/test/f1d5dfc0d13947b699e4cf710e99f895_551237.jpg",
+        "data/image/test/f1d5dfc0d13947b699e4cf710e99f895_551237.jpg",
     ],
 ]
 
