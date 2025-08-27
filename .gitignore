@@ -44,7 +44,6 @@ batch_result_13b/
 *.tar
 *.tar.gz
 *.7z
-*.sh
 *.jsonl
 
 # ---- 模型权重 / 推理引擎文件 ----
