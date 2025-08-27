@@ -1,0 +1,81 @@
+# ---- Python 编译缓存 / 虚拟环境 ----
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ---- IDE / 编辑器 / 系统文件 ----
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# ---- 日志 / 临时 / 缓存 ----
+logs/
+*.log
+tmp/
+temp/
+.cache/
+*.swp
+.ipynb_checkpoints/
+wandb/
+mlruns/
+runs/
+
+# ---- 数据 / 输出 / 检查点（按需调整目录名）----
+data/
+datasets/
+outputs/
+results/
+checkpoints/
+models/
+weights/
+artifacts/
+result_ckpts/
+batch_result_13b/
+
+# ---- 大文件类型（按需保留/忽略）----
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.sh
+*.jsonl
+
+# ---- 模型权重 / 推理引擎文件 ----
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.tflite
+
+# ---- 图片/显微图等大图像（全局忽略）----
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.webp
+*.tif
+*.tiff
+*.svs
+*.ndpi
+
+# 如果你想在文档中仍保留少量小图（如 README 插图），取消对 docs/images 的忽略：
+!docs/images/
+!docs/images/**
+
+# 如果只想允许特定后缀的小图进入 docs（例如仅 *.png），可以更严格一些（选其一用即可）：
+# !docs/images/*.png
+# !docs/images/**/*.png
+
+# ---- Hugging Face / 其他工具缓存（按需）----
+.huggingface/
+huggingface/
+~/.cache/huggingface/
